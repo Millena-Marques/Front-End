@@ -1,0 +1,33 @@
+Flexbox
+		Primeiro, configure o CSS para "display: flex;"
+		Dentro das FLEXBOX temos:
+
+			Flex Container
+				-> flex-direction: por padrão - row = linha, também temos o column, e a versão "reverse" dessas duas opções.
+
+				-> flex-wrap: por padrão - nowrap = não há quebra na descendência, wrap = antônimo do anterior, e wrap-reverse.
+
+				-> flex-flow: atalho para configurar os códigos anteriores "abreviadamente".
+
+				-> justify-content: sempre se encarrega de ajustar o eixo principal: o main axis; flex-start = left to right,
+				flex-end = right to left, center, space-between = máx. de espaçamento possível, space-evenly = espaços iguais,
+				space-around = antônimo do "evenly".
+
+				-> align-items: se encarrega do eixo secundário: o cross axis.
+
+				-> align-content: agrupa sem deixar sobrar espaçamentos desproporcionais.
+
+				-> gap: espaçamento padrão entre os itens.
+
+			Flex Items
+				-> flex-basis: altera na base de uma ou diversas caixas.
+
+				-> flex-grow: controlar quanta vezes mais uma caixa poderá ser maior do que as outras.
+
+				-> flex-shrink: antônimo do item anterior.
+
+				-> flex: atalho para configurar os códigos anteriores "abreviadamente".
+
+				-> order: altera a ordem das caixas.
+
+				-> align-self: altera a configuração individualmente.
