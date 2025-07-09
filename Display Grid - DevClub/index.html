@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="M1ll3rns.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Display Grid - DevClub</title>
+</head>
+<body>
+    <div>
+        <input id="display">
+
+        <button class="gray" onclick="allClean()">AC</button>
+        <button class="gray" onclick="inverter()">+/-</button>
+        <button class="blue" onclick="addCaracter('/')">/</button>
+        <button class="blue" onclick="addCaracter('*')">*</button>
+        <button class="number" onclick="addCaracter('7')">7</button>
+        <button class="number" onclick="addCaracter('8')">8</button>
+        <button class="number" onclick="addCaracter('9')">9</button>
+        <button class="blue" onclick="addCaracter('-')">-</button>
+        <button class="number" onclick="addCaracter('4')">4</button>
+        <button class="number" onclick="addCaracter('5')">5</button>
+        <button class="number" onclick="addCaracter('6')">6</button>
+        <button class="blue" onclick="addCaracter('+')">+</button>
+        <button class="number" onclick="addCaracter('1')">1</button>
+        <button class="number" onclick="addCaracter('2')">2</button>
+        <button class="number" onclick="addCaracter('3')">3</button>
+        <button id="equal" onclick="calcular()">=</button>
+        <button class="number" id="zero" onclick="addCaracter('0')">0</button>
+        <button class="number" onclick="addCaracter('.')">.</button>
+    </div>
+</body>
+</html>
