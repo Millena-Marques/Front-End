@@ -1,0 +1,4 @@
+Gridbox
+		Configure a div{display: grid}.
+	OBS: as configurações de Display Flex rodam perfeitamente na configuração de Gridbox.
+		Temos as configurações de grid-template-colunm/row. E também existe as children, que são: grid-colunm/row.
