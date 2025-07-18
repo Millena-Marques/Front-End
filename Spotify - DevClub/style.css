@@ -7,3 +7,20 @@
     background-color: rgb(19, 19, 19);
 }
 
+span{
+    font-weight: bolder;
+}
+
+a{
+    text-decoration: none;
+}
+.link-icon{
+    display: inline;
+}
+.link-icon:hover{
+    color: #ffffff;
+}
+.link-icon > i:hover, .link-icon > i:hover > span:hover{
+    color: #ffffff;
+}
+
